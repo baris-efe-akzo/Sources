@@ -83,6 +83,8 @@ if($resourceProviders.length) {
     }
 }
 
+
+
 #Create or check for existing resource group
 $resourceGroup = Get-AzureRmResourceGroup -Name $resourceGroupName -ErrorAction SilentlyContinue
 if(!$resourceGroup)
